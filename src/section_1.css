@@ -1,0 +1,403 @@
+
+:root {
+    /* --main-bg: #12151f ; */
+    /* --main-bg: #010503 ; */
+    --main-bg: #818498 ;
+    
+
+    --main_bg-gr :  hsla(0,0%,0%,1); 
+    --bg-img-gr : 
+    radial-gradient(at 38% 0%, hsla(0,8%,4%,1) 0px, transparent 50%),
+    radial-gradient(at 80% 0%, hsla(180,18%,14%,1) 0px, transparent 50%),
+    radial-gradient(at 0% 54%, hsla(38,8%,24%,1) 0px, transparent 50%),
+    radial-gradient(at 18% 0%, hsla(158,40%,23%,1) 0px, transparent 50%),
+    radial-gradient(at 0% 100%, hsla(83,35%,9%,1) 0px, transparent 50%),
+    radial-gradient(at 97% 92%, hsla(140,52%,25%,1) 0px, transparent 50%),
+    radial-gradient(at 0% 0%, hsla(336,90%,13%,1) 0px, transparent 50%);
+    /* --main-bg: #191b20 ; */
+    /* --secondarry: rgb(123, 123, 241);   */
+    --secondarry: rgb(255, 255, 255);   
+    --dark_second: #474856; 
+ 
+}
+
+* {
+    font-family: "Montserrat", sans-serif; 
+
+  
+}
+
+#block_1 {
+    /* border: 2px dashed green ; */
+    /* background-color: #5d6273;     */
+
+      background-color:hsla(0,0%,0%,1);
+    /* background-image: var(--bg-img-gr ) ;  */
+    /* background-color: var(--main-bg); */
+    /* background-color: var(--main-bg); */
+    background-color: var(--main-bg);
+
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+.grey-rounded {
+    margin-top: 10px;
+    background-color:  white;
+    /* From https://css.glass */
+    /* background: rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(12.8px);
+    -webkit-backdrop-filter: blur(12.8px);
+    border: 1px solid rgba(255, 255, 255, 0.37); */
+    /* border-radius: 1em; */
+}
+
+
+
+#sub_1 {
+    max-width: 900px ;
+}
+
+/* #sub_1 #flex { 
+    display: flex ;
+    justify-content: center ;
+    align-items: center;
+    
+} */
+
+#profile , #contact_resume  {
+    height: 270px;
+}
+
+#educ , #skills {
+    height: 220px;
+}
+
+#educ {
+/* height: ; */
+}
+#school_bar {
+    border-radius: 10px;
+} 
+
+h3 {
+    color: white;
+}
+ 
+
+
+
+
+ 
+h2 , h1 , h4 {
+    color:  white   ;
+    /* text-align: center; */
+}
+
+p {
+    color:  white  ;
+    text-align: center;
+    font-size: 12px ;
+}
+
+
+.rounded-circle {
+    height: 190px;  
+    width: 190px;
+    max-width: 190px;
+    color: white ;
+
+}
+/* 
+.m-0 {
+    padding:  0;
+} */
+
+#side_picture{
+    /* height: 1000px;  */
+    /* background-color: #fdfdfd; */
+    padding-right: 0 ; 
+    /* scale: ; */
+} 
+
+ 
+@media (max-width: 499px) {
+    #profile {
+        height: 100vh;
+        border-radius: 0;
+    }
+    #profile_parent {
+        padding: 1px;
+    }
+
+    #circle_cont  {
+        display: flex;  
+        align-items: center ;
+        justify-content: center ;
+        
+    }
+
+    #row_negative {
+        position: relative;
+        top: -50px  ;
+    }
+    
+    #profile_img {
+        height: 300px;
+    }
+} 
+
+.block-2  {
+      /* background-color:hsla(0,0%,0%,1);  */
+      /* 818498 */
+      background-color: var(--main-bg);
+    /* background-image: var(--bg-img-gr ); */
+
+    /* background-color: var(--main-bg);  */
+    /* height: 100vh ; */
+    /* display: flex;
+    align-items: center;
+    justify-content: center;  */
+} 
+
+.h1_blue {
+    /* color:  #255EFF; */
+    color:  var(--);
+    text-align: ce  --dark_second: nter;
+    font-weight: 700;
+     
+}
+
+.card-educ {
+    border: 2px solid white;
+}
+
+.card-educ * {
+    border: 1px dashed yellow;
+}
+
+.row-margin {
+    margin : 50px ;  
+     
+} 
+
+.check-border * {
+  border: 1px dashed yellow;  
+    
+}
+
+.profile-card {
+    top: 30px;
+    /* height: 400px;   */
+    
+    /* background-color: #212634;  */
+    /* From https://css.glass */
+    /* background: rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(12.8px);
+    -webkit-backdrop-filter: blur(12.8px);
+    border: 0.009px solid rgba(255, 255, 255, 0.37);
+    border-radius: 0 0  1em 1em; */
+    /* From https://css.glass */
+
+    
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    /* box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); */
+    backdrop-filter: blur(12.8px);
+    -webkit-backdrop-filter: blur(12.8px);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+#txt-educ  {
+    color : white ;
+}
+
+.h5_indent {
+    color: rgb(200, 198, 198) ;
+    text-indent: 20px;
+    
+}
+
+
+:root   {
+    --circle-height: 50px; 
+    --circle-color :  #ffffff ; 
+}
+
+.school_icon {
+    display: flex ; 
+    justify-content: center;
+    align-items: center;
+}
+
+#bcp {
+    background: url(/src/icon/bcp.png) center center/contain no-repeat;
+    height: var(--circle-height); 
+    width: var(--circle-height);
+    
+}
+
+#plmar {
+    background: url(/src/icon/plmar.png) center center/contain no-repeat;
+    height: var(--circle-height); 
+    width: var(--circle-height);
+    
+}
+
+#cis {
+    background: url(/src/icon/cis.png) center center/contain no-repeat;
+    height: var(--circle-height); 
+    width: var(--circle-height);
+    
+}
+
+.rounded-circle-prg {    
+    background-color: var(--circle-color) ;
+    height: 20px ;
+    width:  20px;
+    
+    border-radius: 50% ;
+    /* position: relative; */
+    /* top: 30px ; */
+}
+
+#prg {
+    display: flex ;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+}
+
+.box {
+    position: absolute;
+    /* top: 10px; */
+    height: 150px ;
+    width: 3px;
+   background-color:var(--circle-color);
+
+}
+
+.pl-10 {
+    /* padding-left: 100px; */
+    padding-left: 0;
+}
+
+.prg-start {
+    position: static;
+    height: 20px; 
+    /* background-color:  green; */
+    
+}
+
+#side_left{
+     /* height: 1000px; */
+     display:  flex;
+     flex-direction: column;
+     justify-content: flex-end;
+     align-items: end  ; 
+}
+
+.big_name_font{
+    font-size: 140px;
+    /* color: rgba(255, 255, 255, 0) ;  */
+    color: var(--main-bg);
+    /* color:  ; */
+    text-shadow:
+        -1px -1px 0 #ffffff,  
+        1px -1px 0 #ffffff,
+        -1px 1px 0 #fdfdfd,
+        1px 1px 0 #ffffff;           
+     line-height: 7rem;
+     font-weight: bolder;
+} 
+
+
+
+.sub_name_font {
+    text-shadow: none ;
+    color:  white;
+}
+
+
+.mt-10  {
+    margin-top: 260px;
+}
+
+#profile_img {
+    height: 760px; 
+    /* position:  relative;  */
+    
+}
+
+#container_100 {
+    height: 100vh;
+}
+
+
+#offer.dark {
+    background-color:  var(--dark_second); 
+    border-radius: 1em; 
+    /* height: 250px; */
+    /* width: 200px; */
+}
+
+
+#offer h5 {
+    color:  white;
+} 
+
+
+#offer.white{
+    background-color: #D9D9D9;
+    border-radius: 1em; 
+    color: #D9D9D9;
+}
+
+#offer.white h5 {
+    color:  #6b7089; 
+    font-weight: bold;
+}
+
+
+
+#offer img {
+    /* height: 400px; */
+    width: 100px;
+
+}
+
+
+
+
+#offer #lit_dbs{ 
+    width: 120px ;
+}
+#offer #lit_stats{ 
+    width: 80px ;
+}
+
+
+#offer #lit_ux{
+    width:138px;
+}
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+/* >>>>>>> 33b7651de75176aa9ca3e0f4018725356397a705 */

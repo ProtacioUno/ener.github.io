@@ -1,0 +1,193 @@
+
+
+#all_skill{
+    display: flex;
+    /* justify-content: ; */
+    /* background-color:  ;    */
+    border-radius:  1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(12.8px);
+    -webkit-backdrop-filter: blur(12.8px);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    
+}
+
+.skill {
+    min-height: 70px;
+    width: 150px ; 
+    filter: grayscale(100%);
+}
+
+
+.skill:hover {
+    
+    filter: grayscale(0);
+}
+
+#php {
+    background:  url(/src/icon_skill/php.png) center center/contain no-repeat;      
+}
+ 
+#phpadmin{
+    background:  url(/src/icon_skill/phpmy.png) center center/contain no-repeat;      
+}
+#js{ background:  url(/src/icon_skill/js.png) center center/contain no-repeat;  }
+#bootstrap{ background:  url(/src/icon_skill/boots.png  ) center center/contain no-repeat;  }
+#figma{background:  url(/src/icon_skill/fimga.png) center center/contain no-repeat;  }
+#powerbi{ background:  url(/src/icon_skill/powerbi.png) center center/contain no-repeat;  }
+#python{ background:  url(/src/icon_skill/python.png) center center/contain no-repeat;  }
+#pandas{ background:  url(/src/icon_skill/pandas\ -\ Copy.png) center center/contain no-repeat;  }
+#matplot{ background:  url(/src/icon_skill/maplottt.png) center center/contain no-repeat;  }
+#anaconda{ background:  url(/src/icon_skill/anaconda_logo.png) center center/contain no-repeat;  }
+#jupyter{ background:  url(/src/icon_skill/jupyter.png) center center/contain no-repeat;  }
+#vscode{ background:  url(/src/icon_skill/vsc.png) center center/contain no-repeat;  }
+#vscode{ background:  url(/src/icon_skill/vsc.png) center center/contain no-repeat;  }
+#github{ background :  url(/src/icon_skill/githab_white.png) center center/contain no-repeat;  }
+#gitbash{ background :  url(/src/icon_skill/git.png) center center/contain no-repeat;  }
+
+
+
+
+.box_img {
+  
+    /* display: flex; */
+}
+
+.box_img a.big_one {
+    width:  100% ;
+    overflow: hidden;
+    
+}
+
+.box_img a.big_one #main_img{
+    max-width: 500px;
+    /* object-fit:fill; */
+    border-radius: 1em;
+    overflow: hidden;
+
+
+    filter: grayscale(100%);
+}
+
+.box_img a.big_one #main_img:hover{
+    filter: grayscale(100%);
+    
+}
+
+
+
+
+
+@media (max-width: 500px) { 
+    
+    /* .box_img {
+        grid-template-columns: repeat(2, 150px) ;
+        grid-template-rows: repeat(3 , 150px)   ;    
+    } */
+    #main_img {
+        height: 200px ;  
+        
+    }
+    
+    
+}
+
+.overflow {
+
+  background-color:  wheat ;
+  height: 300px;
+  overflow:  scroll;
+} 
+
+.overflow > p  {
+  font-size: 3em ;
+}
+
+
+
+
+#ofposition {
+    /* background :  url(/src/measure_of_position/one.png) center center/contain no-repeat;   */    
+    
+} 
+
+
+#skill_container {
+    display:  flex; 
+    flex-wrap: wrap;
+    gap: 10px; 
+}
+
+.dial_skill {
+    background-color:   #212634 ;
+    border-radius: 10px ;
+    color:  white ;
+
+    background: rgba(255, 255, 255, 0.1);
+    /* background: rgba(27, 19, 19, 0.426); */
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(12.8px);
+    -webkit-backdrop-filter: blur(12.8px);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+
+.mini_img {
+    height: 200px; 
+    border-radius: 14px;
+    
+}
+
+.stickyy{
+    top: -50px; 
+}
+
+.glass_p {
+    /* background: rgba(255, 255, 255, 0.1); */
+    background: rgba(27, 19, 19, 0.426);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(12.8px);
+    -webkit-backdrop-filter: blur(12.8px);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    
+} 
+
+.glass {
+    background: rgba(255, 255, 255, 0.1);
+    /* background: rgba(27, 19, 19, 0.426); */
+    border-radius: 16px ;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(12.8px);
+    -webkit-backdrop-filter: blur(12.8px);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    
+} 
+
+
+#block-3 {
+    background-color: #818498  ; 
+    /* height: 80vh; */
+} 
+
+.p_offer {
+    text-align: justify; 
+    text-indent: 3rem;
+}
+
+ 
+
+
+
+
+
+
+
+
+ 

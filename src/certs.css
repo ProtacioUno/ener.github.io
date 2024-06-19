@@ -1,0 +1,65 @@
+
+:root {
+    --cert_height : 150px ; 
+    /* --cert_width : ; */
+}
+
+
+.certs {    
+    height: var(--cert_height) ;
+    width : var(--cert_width) ;
+    /* border-radius   : 0.6em; */
+}
+#exply {
+    background:  url(/src/certs/Exploratory_sql.jpg) center center/cover no-repeat;        
+}
+
+#dm_sql {
+    background:  url(/src/certs/DM_SQL.jpg) center center/cover no-repeat;            
+}
+
+#rdbms {
+    background:  url(/src/certs/rdms_SQL.jpg) center center/cover no-repeat;            
+}
+#jd_sql {
+    background:  url(/src/certs/JD_SQL.jpg) center center/cover no-repeat;            
+}
+
+#inter_sql {
+    background:  url(/src/certs/inter_SQL.jpg) center center/cover no-repeat;            
+
+}
+
+#inter_python {
+    background:  url(/src/certs/inter_python.jpg) center center/cover no-repeat;                
+}
+
+#dm_pandas {
+    background:  url(/src/certs/DM_pandas.jpg) center center/cover no-repeat;                
+    
+}
+
+.h5_cert_title {
+    color:  white ;
+} 
+
+.p_text {
+    text-align: justify;
+    text-indent: 4em ;
+    font-size: 1em;
+}
+
+
+.profile-card h1 {
+    font-weight: bold;
+}
+
+.profile-card h6  {
+    color:  white ;
+} 
+
+.profile-card div .fa-solid {
+    color: white ;
+    margin-top: 2px;
+    margin-right: 10px;
+}

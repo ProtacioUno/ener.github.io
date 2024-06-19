@@ -1,0 +1,8 @@
+
+
+@media only screen and (max-width: 600px) {
+    .big_name_font {
+        font-size: 80px;
+        line-height: 1em  ;
+    }
+}

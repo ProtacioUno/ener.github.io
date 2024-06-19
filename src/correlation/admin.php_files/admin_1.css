@@ -1,0 +1,39 @@
+:root {
+    --secondary:  #FAEFDF ; 
+    --font_color: #DE7529; 
+}
+
+
+
+.check_border * {
+    border: 2px dashed rgb(5, 6, 6);
+}
+
+.center-center {
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    
+}
+.nav_active{
+    background-color: var(--font_color) ; 
+    color:  white;
+    
+}
+
+.nav_upper {
+    display: flex;
+    /* justify-content: s; */
+    align-items: center;
+    border-radius: 0.7em;
+}
+
+
+.navbar{
+
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+ 
