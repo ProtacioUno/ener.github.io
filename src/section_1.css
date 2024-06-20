@@ -216,7 +216,9 @@ p {
 
 
 #txt-educ  {
-    color : white ;
+    color : white ; 
+    scale: 0.8;
+    /* font-size: 3rem; */
 }
 
 .h5_indent {
@@ -227,36 +229,51 @@ p {
 
 
 :root   {
-    --circle-height: 50px; 
+    --circle-height: 70px; 
     --circle-color :  #ffffff ; 
+    --circle_smol : 100px;
 }
 
 .school_icon {
     display: flex ; 
     justify-content: center;
     align-items: center;
+    
 }
 
-#bcp {
-    background: url(/src/icon/bcp.png) center center/contain no-repeat;
+/* #bcp {
     height: var(--circle-height); 
     width: var(--circle-height);
     
 }
 
 #plmar {
-    background: url(/src/icon/plmar.png) center center/contain no-repeat;
     height: var(--circle-height); 
     width: var(--circle-height);
     
 }
 
 #cis {
-    background: url(/src/icon/cis.png) center center/contain no-repeat;
     height: var(--circle-height); 
     width: var(--circle-height);
     
+} */
+
+.school_icon img{
+    height:  var(--circle-height);
+    width:  var(--circle-height) ;
 }
+
+
+
+@media (max-width: 499px) {
+    .school_icon img{
+        height:  var(--circle_smol);
+        width:  var(--circle_smol) ;
+    }
+}
+
+
 
 .rounded-circle {
     height: 190px;  
