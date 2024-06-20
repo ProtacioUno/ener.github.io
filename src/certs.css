@@ -8,9 +8,12 @@
 .certs {    
     height: var(--cert_height) ;
     width : var(--cert_width) ;
+    border-radius: 10px;
     /* border-radius   : 0.6em; */
 }
-#exply {
+
+
+/* #exply {
     background:  url(/src/certs/Exploratory_sql.jpg) center center/cover no-repeat;        
 }
 
@@ -37,7 +40,7 @@
 #dm_pandas {
     background:  url(/src/certs/DM_pandas.jpg) center center/cover no-repeat;                
     
-}
+} */
 
 .h5_cert_title {
     color:  white ;
