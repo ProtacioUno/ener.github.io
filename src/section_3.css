@@ -16,17 +16,27 @@
     border: 1px solid rgba(255, 255, 255, 0.15);
     
 }
-
+    
 .skill {
     object-fit : contain    ;
     min-height: 70px;
-    width: 150px ; 
+    width: 120px ; 
     filter: grayscale(100%); 
 }
 
 
 .skill:hover {     
     filter: grayscale(0);
+}
+
+@media (max-width: 500px){
+    .skill {
+        /* padding-left: 2em ; */
+        width: 80px;
+    }
+    #cont_skill{
+        padding-left: 3em ;
+    }
 }
 
 

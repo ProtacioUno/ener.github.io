@@ -109,11 +109,6 @@ p {
 
 
 
-/* 
-.m-0 {
-    padding:  0;
-} */
-
 #side_picture{
     /* height: 1000px;  */
     /* background-color: #fdfdfd; */
@@ -236,7 +231,7 @@ p {
 
 .school_icon {
     display: flex ; 
-    justify-content: center;
+    justify-content: end;
     align-items: center;
     
 }
