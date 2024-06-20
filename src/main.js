@@ -13,6 +13,7 @@
 
 let mediaQuery = window.matchMedia('(max-width: 1000px)');
 let profile_card = document.querySelector('.profile-card');
+let remove_mt = document.querySelector('.mt-md-2') ; 
 // let hide_me = document.querySelectorAll('.hide-me');
 
 // Function to handle changes in the media query
@@ -21,8 +22,9 @@ let handleMediaQueryChange = (mediaQueryList) => {
     // Media query matches (viewport width is 600px or less)
     // console.log('Viewport width is now 600px or less');
     
-    
-    profile_card.setAttribute('hidden' , 'hidden');
+    remove_mt.classList.remove('mt-5');
+
+    // profile_card.setAttribute('hidden' , 'hidden');
     
     // hide_me.forEach(hides =>{
     //   hides.setAttribute('hidden' , 'hidden');
