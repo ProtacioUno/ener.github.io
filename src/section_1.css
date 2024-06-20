@@ -105,13 +105,7 @@ p {
 }
 
 
-.rounded-circle {
-    height: 190px;  
-    width: 190px;
-    max-width: 190px;
-    color: white ;
 
-}
 /* 
 .m-0 {
     padding:  0;
@@ -214,6 +208,10 @@ p {
     border: 1px solid rgba(255, 255, 255, 0.15);
 }
 
+
+
+
+
 #txt-educ  {
     color : white ;
 }
@@ -257,6 +255,14 @@ p {
     
 }
 
+.rounded-circle {
+    height: 190px;  
+    width: 190px;
+    max-width: 190px;
+    color: white ;
+
+}
+
 .rounded-circle-prg {    
     background-color: var(--circle-color) ;
     height: 20px ;
@@ -264,7 +270,25 @@ p {
     
     border-radius: 50% ;
     /* position: relative; */
-    /* top: 30px ; */
+    /* top: 30px  ; */
+}
+
+.big_cir {
+    height: 210px;  
+    width: 215px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 0.7px dashed white;
+    scale: 1.1;
+    /* border: 10px solid white ; */
+    
+}
+
+.smol_cir {
+    height: 180px;  
+    width: 180px;
 }
 
 #prg {

@@ -38,3 +38,14 @@ handleMediaQueryChange(mediaQuery);
 // Add a listener for changes in the media query
 mediaQuery.addListener(handleMediaQueryChange);
 
+
+
+
+//  DOWNLOADINF DIRECTYLY 
+// document.getElementById("download-csv").addEventListener("click", function() {
+//   // This approach only works if the button triggers a pre-existing download link
+//   var downloadLink = document.createElement("a");
+//   downloadLink.href = "https://docs.google.com/document/d/1vhoU_rLidEoN-oRuNEJQuqm-g4eyu1i0xbrPxdrp4So/edit?usp=sharing"; // Replace with the actual download link
+//   downloadLink.download = "index.html"; // Set the desired filename
+//   downloadLink.click();
+// });

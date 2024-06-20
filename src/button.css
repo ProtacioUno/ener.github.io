@@ -1,15 +1,13 @@
-.btn-conteiner {
+:root {
     display: flex;
     justify-content: center;
     --color-text: #ffffff;
-    /* --color-background: #ff135a; */
     --color-background: #474856;
-    /* background:  */
 
     --color-outline: #ff145b80;
     --color-shadow: #00000080;
   }
-  
+
   .btn-content {
     display: flex;
     align-items: center;
@@ -342,3 +340,36 @@
     transition-delay: 0.25s;
   }
   
+
+
+  a#download-csv {
+    color:  white;
+    border-radius:  1em 0 1em 0 ;
+    font-weight: bolder;
+    text-decoration: none;
+   } 
+   
+   a#download-csv::before {
+    /* content: ""; */
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 15px;
+    background-color: #212121;
+    z-index: -1;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms
+   }
+   
+   a#download-csv:hover {
+    color: white;
+    background-color: var(--color-background); 
+    
+   }
+   
+   a#download-csv:hover::before {
+    width: 100%;
+   }
