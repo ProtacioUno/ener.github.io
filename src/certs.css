@@ -1,15 +1,21 @@
 
 :root {
-    --cert_height : 150px ; 
+    /* --cert_height : 150px ;  */
+    --cert_height : 100px ; 
     /* --cert_width : ; */
 }
 
+
+/* .certs {    
+    height: var(--cert_height) ;
+    width : var(--cert_width) ;
+    border-radius: 10px;
+} */
 
 .certs {    
     height: var(--cert_height) ;
     width : var(--cert_width) ;
     border-radius: 10px;
-    /* border-radius   : 0.6em; */
 }
 
 
