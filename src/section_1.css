@@ -369,7 +369,10 @@ p {
 #container_100 {
     height: 100vh;
 }
-
+#offer {
+    /* scale: 0.5; */
+    /* height: 100px; */
+}
 
 #offer.dark {
     background-color:  var(--dark_second); 
@@ -400,11 +403,11 @@ p {
 #offer img {
     /* height: 400px; */
     width: 100px;
-
 }
 
-
-
+.offer_cont{
+    scale: 0.4;
+}
 
 #offer #lit_dbs{ 
     width: 120px ;
@@ -416,6 +419,32 @@ p {
 
 #offer #lit_ux{
     width:138px;
+}
+
+@media (max-width: 499px) {
+    #offer {
+        height:  150px ;
+    }
+
+    #offer img {
+        /* height: 400px; */
+        width: 50px;
+    }
+
+    #offer #lit_dbs{ 
+        width: 60px ;
+    }
+    #offer #lit_stats{ 
+        width: 40px ;
+    }
+    
+    
+    #offer #lit_ux{
+        width:70px;
+    }
+    
+    
+
 }
 
 
