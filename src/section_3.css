@@ -102,13 +102,22 @@
         grid-template-columns: repeat(2, 150px) ;
         grid-template-rows: repeat(3 , 150px)   ;    
     } */
-    #main_img {
-        height: 200px ;  
-        
+    a.big_one #main_img {
+        max-width: 260px;
+        max-height: 260px;
+        /* border: 20px solid green; */
     }
     
     
 }
+
+@media (max-width: 1230px) { 
+    a.big_one #main_img {
+        max-width: 300px;
+        max-height: 300px;
+    }
+}
+
 
 .overflow {
 
