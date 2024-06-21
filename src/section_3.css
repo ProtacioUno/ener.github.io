@@ -85,10 +85,12 @@
 
 
     filter: grayscale(100%);
+    
+
 }
 
 .box_img a.big_one #main_img:hover{
-    filter: grayscale(100%);
+    filter: grayscale(0%);
     
 }
 
@@ -119,6 +121,7 @@
 }
 
 
+ 
 .overflow {
 
   background-color:  wheat ;
@@ -163,7 +166,13 @@
 .mini_img {
     height: 200px; 
     border-radius: 14px;
+    filter: grayscale(100%);
     
+}
+
+.mini_img:hover {
+    filter: grayscale(0%) ; 
+    transition: filter 0.2s ease-in-out; 
 }
 
 .stickyy{
